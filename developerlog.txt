@@ -1,0 +1,24 @@
+SMFL and Imgui are to be used. 
+The text must be centered within the shape. 
+
+In this project I will be writing a C++/SMFL Program which will read descriptions of shapes from a configuration file, and then drawing those shapes to the screen. Each shape will have a name, position, speed, color, as well as properties unique to each shape type. For example, a Rectangle will have width and height, and a circle will have radius. For this assignment, the position of a shape refers to its SMFL default of the upper-left corner of the shape. 
+
+You are also required to make these shapes "bounce" off the sides of the window which contains them. This means that if the shape's left side hits the left side of the window, its X speed reverses. If the top of the shape hits the top of the window its Y speed reverses. Similiarly, if it hits the right side or bottom of the window. You can assume that all shapes will always be configured to start to start entierely within the window, and you don't have to worry about what happens if they start outside the window. Each shape's name should be drawn on the exact center of the shape in the given font size and color specified in the file. (note: this may be the trickiest part of the assignment, you will not lose many marks if it's not the exact center) 
+
+You are also required to implement an Imgui user interface which is able to: 
+-List all of the shapes and select any one of them to edit their properties 
+-Toggle whether or not the selected shape will be drawn 
+-Change the scale of the shape ( 0 to 4 ) 
+-Change the x and y velocity of the shape (-8 to 8 ) 
+-Change the color of the shape 
+-Change the name of the shape 
+
+
+
+For further information please refer to the COMP4300 - Game Programming - Lecture 03 - assignment 1 and C++ environment Setup 
+
+
+
+
+I essentially have to install Imgui and SMFL and get it to work as in the video. 
+
